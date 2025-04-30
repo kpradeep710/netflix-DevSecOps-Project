@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: pradeep710/netflix-project:latest
+        image: nginx
         ports:
         - containerPort: 80
 ---
