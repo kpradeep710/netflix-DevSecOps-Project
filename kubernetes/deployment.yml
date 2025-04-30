@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: nginx
+        image: pradeep710/netflix-project:latest
         ports:
         - containerPort: 80
 ---
@@ -25,7 +25,7 @@ kind: Service
 metadata:
   name: netflix-app
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: netflix-app
   ports:
