@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: LoadBalancer
+  name: my-load-balancer-svc
 spec:
   type: NodePort
   selector:
