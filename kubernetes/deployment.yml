@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: netflix-app
+  name: LoadBalancer
 spec:
   type: NodePort
   selector:
